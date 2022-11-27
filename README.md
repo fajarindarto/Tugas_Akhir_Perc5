@@ -10,6 +10,7 @@ A. Penjelasan Umum
 Tugas akhir yang saya buat ini merupakan sistem informasi pendaftaran vaksin yang bernama Klinik-ku, sistem informasi ini dibuat dengan menggunakan web framework laravel yang berisi operasi CRUD dimana terdapat create data, read data, update data, dan delete data. Aplikasi ini dibuat dengan tujuan untuk memudahkan para pengguna dan para karyawan klinik untuk mendaftarkan dan menyimpan data para masyarakat untuk daftar vaksin
 
 B. How to Use 
+
 Untuk menggunakan sistem informasi ini pastikan telah mendownload composer, xampp, php yang tersedia di browser.
 1. Pertama buka Xampp dan start bagian apache dan MySQL
 2. Buka commad prompt lalu masuk ke directori dimana file tersedia, selanjutnya jalankan perintah php artisan serve untuk menjalankan laravelnya
