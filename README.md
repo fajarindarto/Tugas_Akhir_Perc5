@@ -13,13 +13,14 @@ B. How to Use
 
 Untuk menggunakan sistem informasi ini pastikan telah mendownload composer, xampp, php yang tersedia di browser.
 1. Pertama buka Xampp dan start bagian apache dan MySQL
-2. Buka commad prompt lalu masuk ke directori dimana file tersedia, selanjutnya jalankan perintah php artisan serve untuk menjalankan laravelnya
-3. Lalu masuk ke http://127.0.0.1:8000 dan akan tampil menu utama dari Klinik-Ku
-4. Untuk melakukan create data, klik pada menu nav bar create, lalu masukkan data informasi masyarakat berupa nama depan, nama belakang, nomor kk, nomor nik, umur, alamat, dan nomor telepon
-5. Untuk melakukan edit data, klik button edit lalu pilih informasi data yang ingin diubah lalu klik button update 
-6. Untuk mengecek detail dari sebuah data masyarakat, klik button detail maka akan tampil semua informasi yang ada pada masyarakat tersebut
-6. Untuk melakukan delete data, pilih data yang mau di delete lalu klik button detail untuk masuk ke detail dan klik button delete yang tersedia untuk menghapus
-7. Sistem informasi ini dapat di install sehingga dapat digunakan di dekstop masing - masing
+2. Buat Database sesuai dengan namanya, lalu php artisan migrate untuk memasukkan konfigurasi data ke dalam database
+3. Buka commad prompt lalu masuk ke directori dimana file tersedia, selanjutnya jalankan perintah php artisan serve untuk menjalankan laravelnya
+4. Lalu masuk ke http://127.0.0.1:8000 dan akan tampil menu utama dari Klinik-Ku
+5. Untuk melakukan create data, klik pada menu nav bar create, lalu masukkan data informasi masyarakat berupa nama depan, nama belakang, nomor kk, nomor nik, umur, alamat, dan nomor telepon
+6. Untuk melakukan edit data, klik button edit lalu pilih informasi data yang ingin diubah lalu klik button update 
+7. Untuk mengecek detail dari sebuah data masyarakat, klik button detail maka akan tampil semua informasi yang ada pada masyarakat tersebut
+8. Untuk melakukan delete data, pilih data yang mau di delete lalu klik button detail untuk masuk ke detail dan klik button delete yang tersedia untuk menghapus
+9. Sistem informasi ini dapat di install sehingga dapat digunakan di dekstop masing - masing
 
 C. Database Design
 
