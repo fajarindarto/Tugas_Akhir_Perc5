@@ -25,7 +25,7 @@ C. Database Design
 
 Database yang digunakan pada sistem informasi ini memiliki nama sms, hal ini telah di konfigurasi pada .env yang telah tersedia 
 Pada database ini tabel utama yang digunakan adalah tabel masyarakats yang berisi beberapa kolom antara lain id, noDaftar, namaDepan, namaBelakang, noKK, noNIK, umur, alamat, noTelp, created_at, dan updated_at
-Berikut adalah tipe data yang digunakan pada masing - masing kolom1
+Berikut adalah tipe data yang digunakan pada masing - masing kolom
 1. id = int (primary key, auto increment)
 2. noDaftar = String (varchar)
 3. namaDepan = String (varchar)
