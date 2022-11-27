@@ -2,12 +2,15 @@
 Tugas Akhir Percobaan 5 - Praktikum Pemrograman Web
 
 Nama : Fajar Indarto
+
 NPM  : 2015061067
 
 A. Penjelasan Umum
+
 Tugas akhir yang saya buat ini merupakan sistem informasi pendaftaran vaksin yang bernama Klinik-ku, sistem informasi ini dibuat dengan menggunakan web framework laravel yang berisi operasi CRUD dimana terdapat create data, read data, update data, dan delete data. Aplikasi ini dibuat dengan tujuan untuk memudahkan para pengguna dan para karyawan klinik untuk mendaftarkan dan menyimpan data para masyarakat untuk daftar vaksin
 
 B. How to Use 
+
 Untuk menggunakan sistem informasi ini pastikan telah mendownload composer, xampp, php yang tersedia di browser.
 1. Pertama buka Xampp dan start bagian apache dan MySQL
 2. Buka commad prompt lalu masuk ke directori dimana file tersedia, selanjutnya jalankan perintah php artisan serve untuk menjalankan laravelnya
@@ -19,6 +22,7 @@ Untuk menggunakan sistem informasi ini pastikan telah mendownload composer, xamp
 7. Sistem informasi ini dapat di install sehingga dapat digunakan di dekstop masing - masing
 
 C. Database Design
+
 Database yang digunakan pada sistem informasi ini memiliki nama sms, hal ini telah di konfigurasi pada .env yang telah tersedia 
 Pada database ini tabel utama yang digunakan adalah tabel masyarakats yang berisi beberapa kolom antara lain id, noDaftar, namaDepan, namaBelakang, noKK, noNIK, umur, alamat, noTelp, created_at, dan updated_at
 Berikut adalah tipe data yang digunakan pada masing - masing kolom1
@@ -35,6 +39,7 @@ Berikut adalah tipe data yang digunakan pada masing - masing kolom1
 11. updated_at = timestamp
 
 D. Routes
+
 Routes digunakan untuk membantu dan menggunakan CRUD yang telah dibuat sehingga dapat dipakai. 
 Routes ini memanggil CRUD yang telah di buat di bagian controllers di MasyarakatController. (App\Http\Contollers\MasyarakatController)
 Model yang telah dibuat sebagai tokoh utama dalam sistem infromasi ini adalah Masyarakat.php (App\Http\Models\Masyarakat)
